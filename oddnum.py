@@ -6,8 +6,5 @@ Created on Thu Apr  4 19:45:33 2019
 """
 
 
-NumList = [i for i in range(1,101)]
-print(NumList)
-
-myList = [i for i in NumList if i%2 == 1]
+myList = [i for i in range(1,101) if i%2 == 1]
 print(myList)
