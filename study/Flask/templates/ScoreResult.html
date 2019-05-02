@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+{% if result.score|int >= 90 %}
+    <p>A</p>
+{% elif result.score|int >= 70 and result.score|int < 90 %}
+    <p>B</p>
+{% elif result.score|int >= 50 and result.score|int < 70 %}
+    <p>C</p>
+{% else %}
+    <p>D</p>
+{% endif %}
+</body>
+</html>
+
