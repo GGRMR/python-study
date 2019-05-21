@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<center>
+	{% for i in result %}
+		<p> Name of Book : {{i["name"]}}</p>
+		<p> price of Book : {{i["price"]}}</p>
+		<p> Author : {{i["writer"]}}</p>
+		<p> Publisher :  {{i["publisher"]}}</p>
+	{% endfor %}
+</center> 
+{% endblock content %}
